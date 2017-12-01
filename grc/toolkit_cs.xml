@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<block>
+  <name>Carrier Sense</name>
+  <key>toolkit_cs</key>
+  <category>[Toolkit]</category>
+  <import>import toolkit</import>
+  <make>toolkit.cs()</make>
+  <sink>
+    <name>in_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out_msg</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+
+  <doc>
+    This carrier sensing takes a FFT log vector from input and gives the max avg measurement over the sensing time given as input.
+
+  	- Input: 1) Log FFT; 2) Trigger message with sensing time.
+
+  	- Output: Highest avg power during sensing time.
+  </doc>
+</block>
