@@ -85,7 +85,7 @@ namespace gr {
 			auto end_time = clock::now();
 			float duration = (float) std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time).count();
 
-			while(duration < pr_time) {
+			while(duration < pr_time or pr_avg == BOTTOM) {
 				end_time = clock::now();
 				duration = (float) std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time).count();
 			}
