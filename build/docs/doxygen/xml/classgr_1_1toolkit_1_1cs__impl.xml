@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1toolkit_1_1cs__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::toolkit::cs_impl</compoundname>
+    <basecompoundref refid="classgr_1_1toolkit_1_1cs" prot="public" virt="non-virtual">gr::toolkit::cs</basecompoundref>
+    <includes refid="cs__impl_8h" local="no">cs_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1ae8e5e878d1abb9bb887561129b6e62b7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::toolkit::cs_impl::pr_avg_data</definition>
+        <argsstring></argsstring>
+        <name>pr_avg_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="33" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1a138c77aa36713a6b5c8a6d6df52a0775" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::toolkit::cs_impl::pr_avg</definition>
+        <argsstring></argsstring>
+        <name>pr_avg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="34" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1a6996f695ea1af84453e7f9918726f641" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::toolkit::cs_impl::pr_time</definition>
+        <argsstring></argsstring>
+        <name>pr_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="35" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1a2dea96a9925864f489f9aa023bc857cc" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::toolkit::cs_impl::msg_port_in</definition>
+        <argsstring></argsstring>
+        <name>msg_port_in</name>
+        <initializer>= pmt::mp(&quot;in_msg&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="37" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1a14036a18fa262cda0ddba489d3344faf" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::toolkit::cs_impl::msg_port_out</definition>
+        <argsstring></argsstring>
+        <name>msg_port_out</name>
+        <initializer>= pmt::mp(&quot;out_msg&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="38" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1toolkit_1_1cs__impl_1aaf5cc20b8ecd36e863d3f18d3193104d" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; gr::thread::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;gr::thread::thread&gt; gr::toolkit::cs_impl::thread</definition>
+        <argsstring></argsstring>
+        <name>thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="40" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1a129e432ea93ea9d700b5688fed75594e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::toolkit::cs_impl::cs_impl</definition>
+        <argsstring>()</argsstring>
+        <name>cs_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1a72961953165cf9ad3ba1ea5979d0c529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::toolkit::cs_impl::~cs_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~cs_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1a51507681c165afb3cd4d312dd880d677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::toolkit::cs_impl::msg_in</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_in</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1a4de3339622fbe1a94282e8a6bd4663ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::toolkit::cs_impl::count_down</definition>
+        <argsstring>()</argsstring>
+        <name>count_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1aea7e12af978e373e675fb97c3f861e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::toolkit::cs_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs__impl_1a6762f3dca755ad825ec01428b6692e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::toolkit::cs_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::toolkit::cs</label>
+        <link refid="classgr_1_1toolkit_1_1cs"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::toolkit::cs_impl</label>
+        <link refid="classgr_1_1toolkit_1_1cs__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::toolkit::cs</label>
+        <link refid="classgr_1_1toolkit_1_1cs"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::toolkit::cs_impl</label>
+        <link refid="classgr_1_1toolkit_1_1cs__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" line="31" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/lib/cs_impl.h" bodystart="31" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a4de3339622fbe1a94282e8a6bd4663ca" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>count_down</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a129e432ea93ea9d700b5688fed75594e" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>cs_impl</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1aea7e12af978e373e675fb97c3f861e6a" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a6762f3dca755ad825ec01428b6692e6f" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a51507681c165afb3cd4d312dd880d677" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>msg_in</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a2dea96a9925864f489f9aa023bc857cc" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>msg_port_in</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a14036a18fa262cda0ddba489d3344faf" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>msg_port_out</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a138c77aa36713a6b5c8a6d6df52a0775" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>pr_avg</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1ae8e5e878d1abb9bb887561129b6e62b7" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>pr_avg_data</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a6996f695ea1af84453e7f9918726f641" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>pr_time</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1aaf5cc20b8ecd36e863d3f18d3193104d" prot="private" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>thread</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs__impl_1a72961953165cf9ad3ba1ea5979d0c529" prot="public" virt="non-virtual"><scope>gr::toolkit::cs_impl</scope><name>~cs_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

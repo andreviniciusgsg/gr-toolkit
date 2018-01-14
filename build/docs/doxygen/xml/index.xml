@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1toolkit_1_1cs" kind="class"><name>gr::toolkit::cs</name>
+    <member refid="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1toolkit_1_1cs__impl" kind="class"><name>gr::toolkit::cs_impl</name>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1ae8e5e878d1abb9bb887561129b6e62b7" kind="variable"><name>pr_avg_data</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a138c77aa36713a6b5c8a6d6df52a0775" kind="variable"><name>pr_avg</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a6996f695ea1af84453e7f9918726f641" kind="variable"><name>pr_time</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a2dea96a9925864f489f9aa023bc857cc" kind="variable"><name>msg_port_in</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a14036a18fa262cda0ddba489d3344faf" kind="variable"><name>msg_port_out</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1aaf5cc20b8ecd36e863d3f18d3193104d" kind="variable"><name>thread</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a129e432ea93ea9d700b5688fed75594e" kind="function"><name>cs_impl</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a72961953165cf9ad3ba1ea5979d0c529" kind="function"><name>~cs_impl</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a51507681c165afb3cd4d312dd880d677" kind="function"><name>msg_in</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a4de3339622fbe1a94282e8a6bd4663ca" kind="function"><name>count_down</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1aea7e12af978e373e675fb97c3f861e6a" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs__impl_1a6762f3dca755ad825ec01428b6692e6f" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1toolkit" kind="namespace"><name>gr::toolkit</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a66c9c6b2b7f00360e3dedd4116bd7aeb" kind="define"><name>TOOLKIT_API</name></member>
+  </compound>
+  <compound refid="cs_8h" kind="file"><name>cs.h</name>
+  </compound>
+  <compound refid="cs__impl_8h" kind="file"><name>cs_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_573b6f4f205158badce08b5683171694" kind="dir"><name>toolkit</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

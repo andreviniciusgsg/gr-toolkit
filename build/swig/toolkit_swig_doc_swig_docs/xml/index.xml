@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1toolkit_1_1cs" kind="class"><name>gr::toolkit::cs</name>
+    <member refid="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1toolkit" kind="namespace"><name>gr::toolkit</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a66c9c6b2b7f00360e3dedd4116bd7aeb" kind="define"><name>TOOLKIT_API</name></member>
+  </compound>
+  <compound refid="cs_8h" kind="file"><name>cs.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/Users/andre.gomes/gnuradio/gr-toolkit/include</name>
+  </compound>
+  <compound refid="dir_573b6f4f205158badce08b5683171694" kind="dir"><name>/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit</name>
+  </compound>
+</doxygenindex>

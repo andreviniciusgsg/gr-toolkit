@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1toolkit_1_1cs" kind="class" language="C++" prot="public">
+    <compoundname>gr::toolkit::cs</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="cs_8h" local="no">cs.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1toolkit_1_1cs" kindref="compound">cs</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;cs&gt; gr::toolkit::cs::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit/cs.h" line="39" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit/cs.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::toolkit::cs::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1toolkit_1_1cs" kindref="compound">toolkit::cs</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1toolkit_1_1cs" kindref="compound">toolkit::cs</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" kindref="member">toolkit::cs::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit/cs.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::toolkit::cs</label>
+        <link refid="classgr_1_1toolkit_1_1cs"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::toolkit::cs</label>
+        <link refid="classgr_1_1toolkit_1_1cs"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit/cs.h" line="37" column="1" bodyfile="/Users/andre.gomes/gnuradio/gr-toolkit/include/toolkit/cs.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1toolkit_1_1cs_1a12cf517238792c61afbf756d961abf2a" prot="public" virt="non-virtual"><scope>gr::toolkit::cs</scope><name>make</name></member>
+      <member refid="classgr_1_1toolkit_1_1cs_1a918223e6380fd191d22286226ef3cfd1" prot="public" virt="non-virtual"><scope>gr::toolkit::cs</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
